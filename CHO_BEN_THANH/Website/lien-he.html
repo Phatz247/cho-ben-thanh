@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="vi">
+<!-- 
+===================================================================
+THANH VIEN: Thanh vien 3 (Le Van C - Phu trach Trai nghiem va Lien he)
+TRANG/CHUC NANG: lien-he.html - Lien he va Bieu mau gop y (Form Validation)
+MO TA: Cung cap thong tin lien he Ban quan ly Cho Ben Thanh va Bieu mau gop y 5 truong co kiem tra tinh hop le bang JavaScript.
+===================================================================
+-->
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Lien he Ban quan ly Cho Ben Thanh va gui gop y ve du an bao ton van hoa di san.">
+  <title>Liên Hệ & Góp Ý Di Sản | Chợ Bến Thành</title>
+  
+  <link rel="icon" type="image/png" href="./images/logo-cho-ben-thanh.png">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- CSS dung chung va CSS rieng cua Thanh vien 3 -->
+  <link rel="stylesheet" href="./css/common.css">
+  <link rel="stylesheet" href="./css/thanhvien3.css">
+  
+  <!-- JavaScript kiem tra hop le bieu mau (Form Validation) -->
+  <script src="./js/thanhvien3.js" defer></script>
+</head>
+<body>
+
+  <!-- =======================================================
+       PHAN 1: HEADER
+       ======================================================= -->
+  <header class="phan-dau-trang">
+    <div class="hop-header">
+      <a href="index.html" class="logo-thuong-hieu" title="Trang chủ Chợ Bến Thành">
+        <img src="./images/logo-cho-ben-thanh.png" alt="Logo Chợ Bến Thành - Văn Hóa và Nhịp Sống" class="logo-anh-bieu-tuong">
+        <div class="logo-chu">
+          <h2>Chợ Bến Thành</h2>
+          <span>Văn Hóa &bull; Nhịp Sống &bull; Di Sản</span>
+        </div>
+      </a>
+      <nav class="thanh-dieu-huong" aria-label="Menu dieu huong chinh">
+        <ul>
+          <li><a href="index.html">Trang Chủ</a></li>
+          <li><a href="lich-su.html">Lịch Sử</a></li>
+          <li><a href="kien-truc.html">Kiến Trúc</a></li>
+          <li><a href="nhip-song.html">Nhịp Sống</a></li>
+          <li><a href="van-hoa-mua-sam.html">Mua Sắm</a></li>
+          <li><a href="am-thuc.html">Ẩm Thực</a></li>
+          <li><a href="kham-pha.html">Khám Phá</a></li>
+          <li><a href="thu-vien.html">Thư Viện</a></li>
+          <li><a href="lien-he.html" class="trang-hien-tai">Liên Hệ</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- =======================================================
+       PHAN 2: HERO BANNER
+       ======================================================= -->
+  <section class="hero-banner-tv3">
+    <div class="khung-chua">
+      <h1 style="margin-top: 10px;">Liên Hệ & Đóng Góp Ý Kiến Di Sản</h1>
+      <p>Mỗi ý kiến đóng góp của quý vị là nguồn tư liệu quý báu giúp chúng tôi hoàn thiện và lan tỏa các giá trị văn hóa của Chợ Bến Thành đến cộng đồng.</p>
+      <div class="duong-dan-trang" style="margin-top: 15px; font-size: 13px; color: #F0DFC0;">
+        <a href="index.html" style="color: var(--mau-vang-co); text-decoration: underline;">Trang chủ</a> &raquo; <span>Liên Hệ</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- =======================================================
+       PHAN 3: GIOI THIEU
+       ======================================================= -->
+  <section class="phan-than-chinh" style="padding-bottom: 10px;">
+    <div class="khung-chua">
+      <div class="tieu-de-khoi">
+        <h2>Gửi Thông Điệp Của Bạn Đến Ban Quản Lý</h2>
+      </div>
+
+      <div style="max-width: 900px; margin: 0 auto; background: #fff; padding: 25px 30px; border-radius: 8px; border: 1px solid var(--mau-vien); box-shadow: var(--bong-do);">
+        <p style="font-size: 15px; line-height: 1.8; color: #444; margin: 0;">
+          Dự án website <em>"Chợ Bến Thành – Văn Hóa & Nhịp Sống"</em> là đồ án môn học Thiết kế Web (MMC403) phi thương mại. Chúng tôi luôn trân trọng lắng nghe phản hồi của thầy cô, bạn học và quý du khách để ngày càng nâng cao trải nghiệm tra cứu văn hóa di sản.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- =======================================================
+       PHAN 4: NOI DUNG
+       ======================================================= -->
+  <section class="phan-than-chinh">
+    <div class="khung-chua">
+
+      <div class="bo-cuc-lien-he-2-cot">
+        
+        <!-- Cot 1: Thong tin truc tiep -->
+        <div class="hop-thong-tin-truc-tiep">
+          <h3>Thông Tin Địa Chỉ & Hỗ Trợ</h3>
+          
+          <div class="dong-thong-tin">
+            <div class="dong-thong-tin-icon">📍</div>
+            <div>
+              <strong style="display: block; font-size: 15px; color: var(--mau-do-gach);">Địa Chỉ Trực Tiếp:</strong>
+              <p style="font-size: 14px; color: #555; margin-top: 2px;">Đường Lê Lợi, Phường Bến Thành, Quận 1, Thành phố Hồ Chí Minh, Việt Nam</p>
+            </div>
+          </div>
+
+          <div class="dong-thong-tin">
+            <div class="dong-thong-tin-icon">📞</div>
+            <div>
+              <strong style="display: block; font-size: 15px; color: var(--mau-do-gach);">Điện Thoại Hỗ Trợ:</strong>
+              <p style="font-size: 14px; color: #555; margin-top: 2px;">(028) 3829 2096 &bull; Hotline hỗ trợ du lịch: 1900 1234</p>
+            </div>
+          </div>
+
+          <div class="dong-thong-tin">
+            <div class="dong-thong-tin-icon">✉️</div>
+            <div>
+              <strong style="display: block; font-size: 15px; color: var(--mau-do-gach);">Email Liên Hệ:</strong>
+              <p style="font-size: 14px; color: #555; margin-top: 2px;">banquanly.chobenthanh@tphcm.gov.vn</p>
+            </div>
+          </div>
+
+          <div class="dong-thong-tin">
+            <div class="dong-thong-tin-icon">⏰</div>
+            <div>
+              <strong style="display: block; font-size: 15px; color: var(--mau-do-gach);">Thời Gian Mở Cửa:</strong>
+              <p style="font-size: 14px; color: #555; margin-top: 2px;">
+                • Chợ ngày: 06:00 – 18:00 hàng ngày<br>
+                • Chợ đêm: 18:00 – 23:00 hàng ngày
+              </p>
+            </div>
+          </div>
+
+          <!-- Hop huong dan di chuyen -->
+          <div style="background-color: #FAF6EE; padding: 18px; border-radius: 6px; border: 1px dashed var(--mau-vang-co); margin-top: 25px;">
+            <strong style="color: var(--mau-xanh-reu); font-size: 14px; display: block; margin-bottom: 6px;">🚇 Chỉ Dẫn Tuyến Metro:</strong>
+            <p style="font-size: 13px; color: #666; margin: 0; line-height: 1.6;">
+              Nhà ga Trung tâm Bến Thành (Tuyến Metro số 1 Bến Thành – Suối Tiên) có lối lên trực tiếp ngay đối diện Cổng Nam của chợ.
+            </p>
+          </div>
+        </div>
+
+        <!-- Cot 2: Bieu mau gop y 5 truong du lieu va kiem tra JS -->
+        <div class="khung-form-gop-y">
+          <h3>Biểu Mẫu Góp Ý & Đóng Góp Tư Liệu</h3>
+          <p style="font-size: 14px; color: #666; margin-bottom: 20px;">
+            Vui lòng điền đầy đủ các trường thông tin có dấu (<span class="dau-sao">*</span>) bên dưới:
+          </p>
+
+          <!-- Hop thong bao gui thanh cong do JavaScript dieu khien -->
+          <div class="hop-thanh-cong" id="hopThanhCong" role="alert"></div>
+
+          <form id="formGopY" novalidate>
+            
+            <!-- Truong 1: Ho va Ten -->
+            <div class="nhom-truong">
+              <label for="hoTen" class="nhan-truong">1. Họ và Tên của bạn <span class="dau-sao">*</span></label>
+              <input type="text" id="hoTen" class="o-nhap" placeholder="Ví dụ: Nguyễn Văn An" autocomplete="name">
+              <div class="thong-bao-loi" id="loiHoTen"></div>
+            </div>
+
+            <!-- Truong 2: Email -->
+            <div class="nhom-truong">
+              <label for="email" class="nhan-truong">2. Địa Chỉ Email <span class="dau-sao">*</span></label>
+              <input type="email" id="email" class="o-nhap" placeholder="Ví dụ: vanan@gmail.com" autocomplete="email">
+              <div class="thong-bao-loi" id="loiEmail"></div>
+            </div>
+
+            <!-- Truong 3: So dien thoai -->
+            <div class="nhom-truong">
+              <label for="dienThoai" class="nhan-truong">3. Số Điện Thoại <span class="dau-sao">*</span></label>
+              <input type="tel" id="dienThoai" class="o-nhap" placeholder="Ví dụ: 0912345678 (10 chữ số)" autocomplete="tel">
+              <div class="thong-bao-loi" id="loiDienThoai"></div>
+            </div>
+
+            <!-- Truong 4: Chu de gop y -->
+            <div class="nhom-truong">
+              <label for="chuDe" class="nhan-truong">4. Chủ Đề Góp Ý <span class="dau-sao">*</span></label>
+              <select id="chuDe" class="o-nhap">
+                <option value="">-- Chọn chủ đề bạn quan tâm --</option>
+                <option value="van-hoa">Bổ sung tư liệu lịch sử & văn hóa chợ</option>
+                <option value="kien-truc">Đóng góp hình ảnh kiến trúc tháp đồng hồ & 4 cửa</option>
+                <option value="am-thuc">Gợi ý địa chỉ quán ăn ngon gia truyền</option>
+                <option value="trai-nghiem">Phản ánh trải nghiệm mua sắm & dịch vụ</option>
+                <option value="khac">Ý kiến đóng góp khác cho đồ án</option>
+              </select>
+              <div class="thong-bao-loi" id="loiChuDe"></div>
+            </div>
+
+            <!-- Truong 5: Noi dung y kien -->
+            <div class="nhom-truong">
+              <label for="noiDung" class="nhan-truong">5. Nội Dung Đóng Góp <span class="dau-sao">*</span></label>
+              <textarea id="noiDung" class="o-nhap" rows="5" placeholder="Chia sẻ cảm nhận, tư liệu hoặc câu hỏi của bạn tại đây (tối thiểu 10 ký tự)..."></textarea>
+              <div class="thong-bao-loi" id="loiNoiDung"></div>
+            </div>
+
+            <!-- Nut Submit -->
+            <div style="margin-top: 25px;">
+              <button type="submit" class="nut-chinh" style="width: 100%; padding: 14px; font-size: 16px;">
+                Gửi Ý Kiến Đóng Góp Ngay &rarr;
+              </button>
+            </div>
+
+          </form>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- =======================================================
+       PHAN 5: FOOTER
+       ======================================================= -->
+  <footer class="phan-chan-trang">
+    <div class="khung-chua hop-footer">
+      <div class="cot-footer">
+        <h3>Chợ Bến Thành</h3>
+        <p>Biểu tượng văn hóa, lịch sử và nhịp sống phương Nam. Đồ án môn học Thiết kế Web (MMC403) của nhóm sinh viên đam mê văn hóa truyền thống.</p>
+        <p><strong>Địa chỉ:</strong> Đường Lê Lợi, Phường Bến Thành, Quận 1, TP. Hồ Chí Minh</p>
+      </div>
+
+      <div class="cot-footer">
+        <h3>Các Chuyên Đề</h3>
+        <ul>
+          <li><a href="lich-su.html">&bull; Dòng thời gian lịch sử</a></li>
+          <li><a href="kien-truc.html">&bull; Kiến trúc tháp đồng hồ & 4 cửa</a></li>
+          <li><a href="nhip-song.html">&bull; Nhịp sống ngày và đêm</a></li>
+          <li><a href="van-hoa-mua-sam.html">&bull; Văn hóa tiểu thương & mặc cả</a></li>
+          <li><a href="am-thuc.html">&bull; Thiên đường ẩm thực Bến Thành</a></li>
+        </ul>
+      </div>
+
+      <div class="cot-footer">
+        <h3>Thông Tin Dự Án</h3>
+        <p>• Phân công: Nhóm 3 thành viên</p>
+        <p>• TV1: Nền tảng, Lịch sử, Kiến trúc, FAQ JS</p>
+        <p>• TV2: Nhịp sống, Mua sắm, Ẩm thực, Bộ lọc JS</p>
+        <p>• TV3: Khám phá, Thư viện, Liên hệ, Validate Form JS</p>
+      </div>
+    </div>
+    <div class="chan-trang-ban-quyen">
+      &copy; 2026 Đồ Án MMC403 – Chợ Bến Thành: Văn Hóa và Nhịp Sống. Thiết kế phi thương mại phục vụ học tập.
+    </div>
+  </footer>
+
+</body>
+</html>
